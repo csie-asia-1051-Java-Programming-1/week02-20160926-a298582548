@@ -27,11 +27,11 @@ public class ex03_105021010 {
 		}
 		else{
 		if(h>=120 && h<=240){
-		System.out.println(4*30+(h-120)*40);	
+		System.out.println(4*30+((h-2*a)/30)*40);	
 		}
 		else{
 		if(h>=240){
-		System.out.println(4*30+4*40+(h-240)*60);
+		System.out.println(4*30+4*40+((h-4*a)/30)*60);
 		}
 		else{
 		if(h<30){
