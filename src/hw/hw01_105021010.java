@@ -13,9 +13,13 @@ public class hw01_105021010 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
+		System.out.println("媽媽給了:");
 		int N = scn.nextInt();
+		System.out.println("買了蘋果:");
 		int a1 = scn.nextInt();
+		System.out.println("買了柳丁:");
 		int a2 = scn.nextInt();
+		System.out.println("買了桃子:");
 		int a3 = scn.nextInt();
 		int QQ = a1*15+a2*20+a3*30;
 		int TT = N-QQ;
@@ -23,9 +27,9 @@ public class hw01_105021010 {
 		int EE = (TT-50*YY)/5;
 		int GG = (TT-50*YY-5*EE)/1;
 		if(N>=QQ){
-		System.out.println(YY);
-		System.out.println(EE);
-		System.out.println(GG);
+		System.out.println("找了50硬幣共:"+YY+"個");
+		System.out.println("5硬幣共:"+EE+"個");
+		System.out.println("1硬幣共:"+GG+"個");
 		}else{
 		System.out.println("0");
 			

@@ -12,6 +12,7 @@ public class hw03_105021010 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
+		System.out.print("輸入一個西元年:");
 		int yEar = scn.nextInt();
 		int a1 = yEar/4;
 		float a2 =(float)yEar/4;
@@ -23,9 +24,9 @@ public class hw03_105021010 {
 		float a8 = (float)yEar/100;
 		float a9 = a8-a7;
 		if(a3==0 && a9!=0||a6 == 0){
-		System.out.println("是閏年");	
+		System.out.println("是閏年喔~");	
 		}else{
-		System.out.println("不是閏年");	
+		System.out.println("不是閏年喔~");	
 		}
 		
 		}
